@@ -1,0 +1,9 @@
+[package]
+name = "repo-synthesizer-ai-prompt"
+version = "0.1.0"
+edition = "2021"
+authors = ["Nicolas Spijkerman <nicospijke@gmail.com>"]
+license = "MIT"
+description = "TODO"
+
+[dependencies]

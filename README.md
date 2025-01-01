@@ -1,1 +1,1 @@
-# repo-synthesizer-ai-prompt
+# Repo Synthesizer AI Prompt
