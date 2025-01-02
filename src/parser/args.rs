@@ -12,23 +12,23 @@ use std::{
 #[derive(Parser)]
 #[command(version, about, long_about = None)]
 pub struct Args {
-    /// TODO
+    /// Specifies the directory to analyze. If not provided, uses the current working directory
     #[arg(short, long)]
     directory: Option<PathBuf>,
 
-    /// TODO
+    /// Path to the output file. If not provided, prints to stdout
     #[arg(short, long)]
     pub output_file: Option<String>,
 
-    /// TODO
+    /// List of file extensions to process. Only files with these extensions will be included
     #[arg(short, long)]
     extensions: Option<Vec<String>>,
 
-    /// TODO
+    /// List of file extensions to ignore. Files with these extensions will be excluded
     #[arg(short, long)]
     ignore: Option<Vec<String>>,
 
-    /// TODO
+    /// Opens the default config file in the system's file explorer
     #[arg(short, long)]
     config: bool,
 }

@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Nicolas Spijkerman <nicospijke@gmail.com>"]
 license = "MIT"
-description = "TODO"
+description = "A command-line tool that aggregates and formats repository content for AI prompts.\nIt walks through directories, collecting file contents while respecting ignore patterns, and outputs a formatted synthesis suitable for use in AI interactions."
 
 [[bin]]
 path = "src/main.rs"
