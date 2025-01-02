@@ -14,9 +14,6 @@ It walks through directories, collecting file contents while respecting ignore p
 
 ## Installation
 
-### Windows
-
-
 ### From Source
 
 ```shell
